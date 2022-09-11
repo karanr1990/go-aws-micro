@@ -1,13 +1,6 @@
 package sqlc
 
-import (
-	"context"
-	"fmt"
-	"github.com/stretchr/testify/require"
-	"testing"
-)
-
-func TestTransferTx(t *testing.T) {
+/*func TestTransferTx(t *testing.T) {
 	store := NewStore(testDB)
 
 	account1 := createRandomAccount(t)
@@ -160,4 +153,4 @@ func TestTransferTxDeadlock(t *testing.T) {
 	fmt.Println(">> after:", updatedAccount1.Balance, updatedAccount2.Balance)
 	require.Equal(t, account1.Balance, updatedAccount1.Balance)
 	require.Equal(t, account2.Balance, updatedAccount2.Balance)
-}
+}*/
