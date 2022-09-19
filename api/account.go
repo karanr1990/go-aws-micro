@@ -2,9 +2,9 @@ package api
 
 import (
 	"database/sql"
+	db "github.com/ark-group/go-aws-micro/db/sqlc"
 	"github.com/gin-gonic/gin"
 	"github.com/lib/pq"
-	db "go-aws-micro/db/sqlc"
 	"net/http"
 )
 

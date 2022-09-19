@@ -2,8 +2,8 @@ package sqlc
 
 import (
 	"database/sql"
+	"github.com/ark-group/go-aws-micro/util"
 	_ "github.com/lib/pq"
-	"go-aws-micro/util"
 	"log"
 	"os"
 	"testing"

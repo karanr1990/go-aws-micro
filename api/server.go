@@ -1,8 +1,8 @@
 package api
 
 import (
+	db "github.com/ark-group/go-aws-micro/db/sqlc"
 	"github.com/gin-gonic/gin"
-	db "go-aws-micro/db/sqlc"
 )
 
 type Server struct {

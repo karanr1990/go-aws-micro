@@ -2,7 +2,7 @@ package sqlc
 
 import (
 	"context"
-	"go-aws-micro/util"
+	"github.com/ark-group/go-aws-micro/util"
 	"testing"
 	"time"
 

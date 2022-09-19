@@ -1,1 +1,1 @@
-# go-aws-micro
+# github.com/ark-group/github.com/ark-group/go-aws-micro
