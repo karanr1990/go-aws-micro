@@ -1,4 +1,4 @@
-package sqlc
+package db
 
 import (
 	"database/sql"
@@ -9,9 +9,12 @@ import (
 	"testing"
 )
 
-/*const (
+/*
+const (
+
 	dbDriver = "postgres"
 	dbSource = "postgresql://postgres:admin@localhost:5432/simple_bank?sslmode=disable"
+
 )
 */
 var testQueries *Queries

@@ -1,13 +1,12 @@
-package sqlc
+package db
 
 import (
 	"context"
 	"database/sql"
 	"github.com/ark-group/go-aws-micro/util"
+	"github.com/stretchr/testify/require"
 	"testing"
 	"time"
-
-	"github.com/stretchr/testify/require"
 )
 
 func createRandomUser(t *testing.T) User {
