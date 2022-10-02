@@ -10,12 +10,6 @@ import (
 	"log"
 )
 
-/*const (
-	dbDriver      = "postgres"
-	dbSource      = "postgresql://postgres:admin@localhost:5432/simple_bank?sslmode=disable"
-	serverAddress = "0.0.0.0:8080"
-)*/
-
 func main() {
 
 	config, err := util.LoadConfig(".")
