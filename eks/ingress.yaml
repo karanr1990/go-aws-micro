@@ -24,7 +24,3 @@ spec:
                 name: simple-bank-api-service
                 port:
                   number: 80
-  tls:
-    - hosts:
-        - ab9b35b63da5d41a8b4a27cb3d513cb4-1978624757.ap-south-1.elb.amazonaws.com
-      secretName: simple-bank-api-cert
